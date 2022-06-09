@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  text-align: center;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  margin-top: 2.4rem;
+}
+.navbar .container .navbar-brand img {
+  width: 5rem;
+}
+@media (max-width: 1366px) {
+  /* For mobile phones: */
+  [id="carouselExampleIndicators"] {
+    min-width: 80%;
+  }
+  #course .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  #course .row .col {
+    margin: 1rem auto;
+  }
+}
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  [id="carouselExampleIndicators"] {
+    min-width: 100%;
+  }
+  #course .row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  #course .row .col {
+    margin: 1rem auto;
+  }
+  #feature .row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #feature .col {
+    margin: 1rem auto;
+    width: 100%;
+  }
+  #feature .row .col h3 {
+    font-family: "Raleway", sans-serif;
+  }
+  #footer .row {
+    margin: 2rem auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  #footer .row {
+    width: 100%;
+  }
+  #reference {
+    width: 100%;
+  }
+  #reference form {
+    margin-top: 2rem;
+  }
+  #footer a:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+#course-offer {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+#course {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  margin-top: 12rem;
+}
+.card .card-link .card-body a {
+  text-decoration: none;
+}
+.card img {
+  height: 200px;
+}
+#feature {
+  margin-bottom: 5rem;
+}
+#feature-title {
+  margin-top: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+#feature .row .col h3 {
+  margin-bottom: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+#feature .row .col ul li {
+  padding: 0.5rem;
+  text-align: left;
+}
+#footer {
+  font-family: "Poppins", sans-serif;
+}
+#footer li {
+  text-align: start;
+  color: white;
+}
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+#footer a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+#reference {
+  width: 70%;
+}
+#reference form {
+  text-align: left;
+}
+#reference form input {
+  text-align: left;
+}
+#footer .social {
+  cursor: pointer;
+}

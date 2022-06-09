@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  text-align: center;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+.navbar .container .navbar-brand img {
+  width: 5rem;
+}
+#courses {
+  margin-top: 15rem;
+}
+#courses .jee {
+  margin-bottom: 8rem;
+}
+#courses .jee h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+#courses .jee h4 {
+  text-align: left;
+  font-weight: 700;
+}
+#courses .jee .apply a {
+  margin-left: -33rem;
+}
+#courses .jee .apply p {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: left;
+  font-size: 1.3rem;
+}
+#courses .jee .image img {
+  width: 400px;
+}
+#courses .neet {
+  margin-bottom: 10rem;
+}
+#courses .neet h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+#courses .neet h4 {
+  text-align: left;
+  font-weight: 700;
+}
+#courses .neet .apply a {
+  margin-left: -33rem;
+}
+#courses .neet .apply p {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: left;
+  font-size: 1.3rem;
+}
+#courses .neet .image img {
+  width: 400px;
+}
+@media (max-width: 1024px) {
+  #courses {
+    margin-top: 10rem;
+  }
+  #courses .jee .image img {
+    width: 300px;
+  }
+  #courses .jee h1 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  #courses .jee .apply h4 {
+    font-weight: 1.1rem;
+  }
+  #courses .jee .apply p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  #courses .jee .apply a {
+    margin-left: -14rem;
+  }
+
+  #courses .neet .image img {
+    width: 300px;
+  }
+  #courses .neet h1 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  #courses .neet .apply h4 {
+    font-weight: 1.1rem;
+  }
+  #courses .neet .apply p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  #courses .neet .apply a {
+    margin-left: -14rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #courses {
+    margin-top: 8rem;
+    padding: 2rem;
+  }
+  #courses .jee .image img {
+    width: 300px;
+  }
+  #courses .jee h1 {
+    margin-top: 2rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  #courses .jee .apply h4 {
+    font-weight: 1.1rem;
+  }
+  #courses .jee .apply p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  #courses .jee .apply a {
+    margin-left: -14rem;
+  }
+  #courses .neet .image img {
+    width: 300px;
+  }
+  #courses .neet h1 {
+    margin-top: 2rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  #courses .neet .apply h4 {
+    font-weight: 1.1rem;
+  }
+  #courses .neet .apply p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  #courses .neet .apply a {
+    margin-left: -14rem;
+  }
+  #courses .neet {
+    margin-bottom: 5rem;
+  }
+}

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Orion Academy</title>
+    <link rel="stylesheet" href="./home.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <ul class="nav fixed-top justify-content-evenly bg-dark">
+      <li class="nav-item">
+        <a class="nav-link text-light" aria-current="page" href="#"
+          ><i class="fa-solid fa-envelope"></i> : haokipiit7@gmail.com</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#"
+          ><i class="fa-solid fa-phone"></i> : +91 6205021118</a
+        >
+      </li>
+    </ul>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./logo/logo.png" alt="" />
+        </a>
+        <div class="col m-lg-4">
+          <div class="row fs-3 lh-sm text-nowrap">The Orion Academy</div>
+          <div class="row text-nowrap">of Science and Arts</div>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul id="menu" class="navbar-nav mx-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Courses
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="./links/course.html"
+                    >JEE Mains and Advanced</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./links/course.html"
+                    >NEET - UG</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./links/course.html">Boards</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./links/course.html">Others</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./links/faculty.html">Faculty</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="./links/about.html"
+                    >About Orion</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide w-50 mx-auto shadow-sm"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./gallery/1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./gallery/3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- courses offer -->
+    <h1 id="course-offer">Courses Offers</h1>
+    <div id="course" class="container-fluid mt-4">
+      <div class="row">
+        <div class="col">
+          <div class="card shadow-sm" style="width: 18rem">
+            <img src="./images/engineer.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">JEE Mains and Advanced</h5>
+              <p class="card-text">
+                Become an engineer and graduate from the most prestigious
+                colleged in India
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Course starts on 1 July 2022</li>
+            </ul>
+            <div class="card-body">
+              <a href="./links/register.html" class="btn btn-primary">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" style="width: 18rem">
+            <img src="./images/doctor.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">NEET-UG</h5>
+              <p class="card-text">
+                Graduate in the field of medical science as professional Doctors
+                and nurses
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Course starts on 1 July 2022</li>
+            </ul>
+            <div class="card-body">
+              <a href="./links/register.html" class="btn btn-primary">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" style="width: 18rem">
+            <img src="./images/boards.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">State Boards</h5>
+              <p class="card-text">
+                Get good rank in your board exams with high percentage and CGPA
+                points
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Course starts on 1 July 2022</li>
+            </ul>
+            <div class="card-body">
+              <a href="./links/register.html" class="btn btn-primary">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- features -->
+    <h1 id="feature-title">Special Features</h1>
+    <div class="container mt-4" id="feature">
+      <div class="row">
+        <div class="col">
+          <h3>Science</h3>
+          <ul class="fa-ul fs-5">
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-check-square"></i></span
+              >Special design academy for Medical and Engineering Aspirants
+            </li>
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-check-square"></i></span
+              >Supervised by faculty who has experienced in Medical and
+              Engineering fields
+            </li>
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-check-square"></i></span
+              >Separate sections for NEET (UG) and JEE aspirants
+            </li>
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-check-square"></i></span
+              >Weekly regular test series conducted for whole course
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Arts</h3>
+          <ul class="fa-ul fs-5">
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-check-square"></i></span
+              >Secondary level seminar every month in sync with syllabus
+            </li>
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-check-square"></i></span
+              >One reasoning class every month
+            </li>
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-check-square"></i></span
+              >Introducing students to the competitive world
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div id="footer" class="container-fluid bg-dark">
+      <div class="container row p-5 mx-auto" id="reference">
+        <div class="col-md-3">
+          <li class="list-group-item mb-3">About</li>
+          <li class="list-group-item"><a href="#">Introduction</a></li>
+          <li class="list-group-item"><a href="#">Why Orion?</a></li>
+        </div>
+        <div class="col-md-3">
+          <li class="list-group-item mb-3">Courses</li>
+          <li class="list-group-item">
+            <a href="./links/course.html">JEE Mains</a>
+          </li>
+          <li class="list-group-item">
+            <a href="./links/course.html">JEE Advanced</a>
+          </li>
+          <li class="list-group-item">
+            <a href="./links/course.html">NERIST</a>
+          </li>
+          <li class="list-group-item">
+            <a href="./links/course.html">NEET-UG</a>
+          </li>
+          <li class="list-group-item">
+            <a href="./links/course.html">BSc Nursing</a>
+          </li>
+        </div>
+        <div class="col-md-3">
+          <li class="list-group-item mb-3">Contact Us</li>
+          <li class="list-group-item"><a href="./links/about.html">Enquiry</a></li>
+          <li class="list-group-item"><a href="./links/about.html">Feedback</a></li>
+        </div>
+        <div class="col-md-3 text-light">
+          <div class="mb-3">
+            <iframe id="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14539.692441896326!2d93.69298592685399!3d24.34917089786346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374eb3a7e71e5efd%3A0x4204adccbb13fd82!2sI.C.I.%20Secretariat!5e0!3m2!1sen!2sin!4v1654532991476!5m2!1sen!2sin"
+              width="200"
+              height="100"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="social d-flex mt-3 justify-content-center">
+              <div class="fb m-2"><i class="fab fa-facebook fa-2x"></i></div>
+              <div class="ig m-2"><i class="fab fa-instagram fa-2x"></i></div>
+              <div class="tw m-2"><i class="fab fa-twitter fa-2x"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="copyright" class="text-light pb-5">
+        &copy; Copyright 2022 | The Orion Academy
+      </div>
+    </div>
+
+    <script src="./home.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+</html>
